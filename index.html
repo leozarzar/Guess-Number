@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
     <script src="./script.js" defer></script>
+    <script src="./voiceover.js" defer></script>
     <title>Secret Number</title>
 </head>
 <body>
@@ -15,7 +16,12 @@
     <div class="display">
         <div>Você disse:</div>
         <span class="number-box"><span id="number" class="number">223</span></span>
-        <div id="message"> <span class="hidden-elements" hidden id="reaction">X</span> Fale algum número! <span class="hidden-elements" hidden> <i class="fa-solid fa-angles-up"></i> </span> </div>
+        <div>
+            <span class="hidden-elements" hidden id="reaction">X</span> 
+            <span id="message"> Fale algum número! </span>
+            <span class="hidden-elements" hidden><i class="fa-solid fa-angles-up"></i></span>
+        </div>
+        <button id="button" class="button" hidden>Jogar Novamente</button>
     </div>
 </body>
 </html>

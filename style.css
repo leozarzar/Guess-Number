@@ -3,6 +3,7 @@
 :root{
     --font-family: 'Lato', sans-serif;
     --bg-color: #1AACAC;
+    --secondary-bg-color: #CDFAD5;
     --primary-color: #EEEEEE;
 }
 
@@ -53,4 +54,20 @@ div {
 
 .number {
     font-size: 4em;
+}
+
+.message {
+    
+}
+
+.button{
+    min-width: 250px;
+    max-width: 250px;
+    min-height: 50px;
+    max-height: 50px;
+    font-size: 1em;
+    background-color: var(--bg-color);
+    border: 1.25px solid var(--primary-color);
+    color: var(--primary-color);
+    border-radius: 10px;
 }
